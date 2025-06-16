@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-[Watch Video Walkthrough](https://imgur.com/a/a7CrSbT.gif)
+[Video Walkthrough](https://imgur.com/a/a7CrSbT.gif)
 
 
 
