@@ -41,8 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-
-<img src="https://i.imgur.com/a7CrSbT.gif" title="Video Walkthrough" width="100%" alt="Video Walkthrough" />
+[Watch Video Walkthrough](https://imgur.com/a/a7CrSbT.gif)
 
 
 
