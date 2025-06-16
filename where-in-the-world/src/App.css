@@ -1,0 +1,78 @@
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;          /* centers the whole app vertically & horizontally */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #f6d365, #fda085);
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #ffecd2, #fcb69f);
+  padding: 20px;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.next-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: #ff8a65;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.next-button:hover {
+  background: #ff7043;
+}
+.start-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.intro-card {
+  width: 340px;
+  height: 200px;
+  background: #fff3e0;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 24px;
+}
+
+.intro-card h2 {
+  color: #f57c00;
+  margin-bottom: 12px;
+}
+
+.intro-card p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.start-button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #fb8c00;
+}

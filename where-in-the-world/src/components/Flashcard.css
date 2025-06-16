@@ -1,0 +1,80 @@
+.flashcard {
+  width: 320px;
+  height: 240px;
+  margin: 20px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+}
+
+.flashcard > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  transition: transform 0.6s, opacity 0.3s;
+  opacity: 1;
+}
+
+
+.flashcard .front,
+.flashcard .back {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flashcard img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.flashcard .front {
+  transform: rotateY(0deg);
+  padding: 12px;
+}
+
+.flashcard .front p {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+}
+
+.flashcard .back {
+  transform: rotateY(180deg);
+  padding: 12px;
+}
+
+.city-name-box {
+  margin-top: 12px;
+  background-color: #ffb74d;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.flashcard.flipped .front {
+  transform: rotateY(180deg);
+}
+
+.flashcard.flipped .back {
+  transform: rotateY(360deg);
+}
+.flashcard::after {
+  content: "Click to flip";
+  position: absolute;
+  bottom: 6px;
+  right: 10px;
+  font-size: 0.75rem;
+  color: #888;
+}
+.flashcard.transitioning .front,
+.flashcard.transitioning .back {
+  opacity: 0;
+}
