@@ -4,7 +4,7 @@ Submitted by: **Cinthia Ochoa Torre**
 
 This web app: **is an interactive flashcard guessing game that helps users learn about beautiful and famous cities around the world. Users are shown a flashcard with a country and image, and they must guess what city it is. Flipping the card reveals the answer, and a "Next" button allows users to move on to another random city.**
 
-Time spent: **10** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
