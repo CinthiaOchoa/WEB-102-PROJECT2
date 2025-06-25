@@ -40,9 +40,10 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
-Here's a walkthrough of implemented user stories:
+Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/tzsimwE.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/a7CrSbT.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
+
 
 ## Notes
 
