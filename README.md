@@ -41,7 +41,8 @@ The following **required** functionality is completed:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented required features:
-[Video Walkthrough](https://imgur.com/a/a7CrSbT.gif)
+[Video Walkthrough]([https://imgur.com/a/a7CrSbT.gif] 
+
 
 
 ## Notes
