@@ -1,42 +1,42 @@
-# Web Development Project 2 - *Where in the World is this City?*
+# Web Development Project 3 - Where in the World is This City?
 
-Submitted by: **Cinthia Ochoa Torre**
+Submitted by: Cinthia Ochoa Torre
 
-This web app: **is an interactive flashcard guessing game that helps users learn about beautiful and famous cities around the world. Users are shown a flashcard with a country and image, and they must guess what city it is. Flipping the card reveals the answer, and a "Next" button allows users to move on to another random city.**
+This web app: An interactive flashcard game where users guess the city based on the country and an image shown. Users enter their guess before flipping the card, get immediate feedback, navigate through cards, and track their progress with streaks. Cards can be marked as mastered and shuffled for randomized play.
 
-Time spent: **7** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The app displays the title of the card set, a short description, and the total number of cards**
-  - [x] Title of card set is displayed 
-  - [x] A short description of the card set is displayed 
-  - [x] A list of card pairs is created
-  - [x] The total number of cards in the set is displayed 
-  - [x] Card set is represented as a list of card pairs (an array of dictionaries where each dictionary contains the question and answer is perfectly fine)
-- [x] **A single card at a time is displayed**
-  - [x] Only one half of the information pair is displayed at a time
-- [x] **Clicking on the card flips the card over, showing the corresponding component of the information pair**
-  - [x] Clicking on a card flips it over, showing the back with corresponding information 
-  - [x] Clicking on a flipped card again flips it back, showing the front
-- [x] **Clicking on the next button displays a random new card**
+- [x] **The user can enter their guess into an input box *before* seeing the flipside of the card**
+  - Application features a clearly labeled input box with a submit button where users can type in a guess
+  - Clicking on the submit button with an **incorrect** answer shows visual feedback that it is wrong 
+  - Clicking on the submit button with a **correct** answer shows visual feedback that it is correct
+- [x] **The user can navigate through an ordered list of cards**
+  - A forward/next button displayed on the card navigates to the next card in a set sequence when clicked
+  - A previous/back button displayed on the card returns to the previous card in the set sequence when clicked
+  - Both the next and back buttons have a disabled/grayed out state when at the beginning or end of the list, preventing wrap-around navigation
 
-The following **optional** features are implemented:
+## Optional Features Implemented
 
-- [x] Cards contain images in addition to or in place of text
-  - [x] Some or all cards have images in place of or in addition to text
-- [x] Cards have different visual styles such as color based on their category
-  - [x] Colors and layout designed to match a fun learning aesthetic
+- [x] Users can use a shuffle button to randomize the order of the cards
+  - Cards remain in the original order unless shuffle is clicked
+  - Shuffle randomizes the card sequence
+- [x] A user’s answer is counted as correct even when it is slightly different from the target answer
+  - Matching ignores case, punctuation, and accepts partial matches (e.g., "sao" for "São Paulo")
+- [x] A counter displays the user’s current and longest streak of correct responses
+  - Current streak increments on correct guesses and resets on incorrect guesses
+  - Longest streak updates if current streak exceeds previous record
+- [x] Users can mark a card as mastered, removing it from the active deck and adding it to a mastered list
 
-The following **additional** features are implemented:
+## Additional Features Implemented
 
-* [x] Intro/start card that invites users to start the game
-* [x] Reset the card to front side when switching to a new one
-* [x] Flashcard shows the country and image first, then flips to reveal the city
-* [x] Flashcards are centered and fully responsive
-* [x] All layout and styles fully customized using `App.css` and `Flashcard.css`
+- [x] Starting card introducing the game with a start button
+- [x] Display of the country’s name and an image before guessing the city
+- [x] Responsive and centered layout with styled buttons and card flip animations
+- [x] Visual feedback colored text for correct/incorrect answers
 
 ## Video Walkthrough
 
@@ -44,27 +44,27 @@ Here's a walkthrough of implemented required features:
 [Video Walkthrough](https://imgur.com/a/a7CrSbT.gif)
 
 
-
 ## Notes
 
-Some of the main challenges were:
-- Getting the card to properly flip back to the front after changing to a new card
-- Styling and aligning elements to be mobile-friendly and visually centered
-- Making sure the card flip animation didn’t glitch with conditional rendering
-- Creating a smooth user experience when showing image + country first, and then city
+Challenges included implementing fuzzy matching for user input and synchronizing card flip state with guess submission and navigation buttons. Styling the flip animation and ensuring responsive layout were also key focus areas.
 
 ## License
 
-    Copyright 2025 Cinthia Ochoa
+    Copyright 2025 Cinthia Ochoa Torre
 
-    Licensed under the Apache License, Version 2.0 (the "License");
+    Licensed under the Apache License, Version 2.0 (the \"License\");
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
         http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
+    distributed under the License is distributed on an \"AS IS\" BASIS,
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
+
+
+
+
+
